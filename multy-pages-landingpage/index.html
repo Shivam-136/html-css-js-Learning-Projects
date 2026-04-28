@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">Login</a>
+  <a href="signup.html">Signup</a>
+</nav>
+
+<div class="container">
+
+  <h1>Contact Us</h1>
+
+  <!-- 📷 IMAGE SECTION -->
+  <div class="image-section">
+    <img src="https://via.placeholder.com/300" alt="contact">
+    <img src="https://via.placeholder.com/300" alt="support">
+  </div>
+
+  <!-- 📝 INFO SECTION -->
+  <div class="info-section">
+    <h2>Why Contact Us?</h2>
+    <p>We are here to help you 24/7. Feel free to contact us for any support, feedback or business queries.</p>
+  </div>
+
+  <!-- 📦 CARDS SECTION -->
+  <div class="card-section">
+    <div class="card">
+      <h3>📞 Support</h3>
+      <p>Get help from our team</p>
+    </div>
+
+    <div class="card">
+      <h3>💼 Business</h3>
+      <p>Business related queries</p>
+    </div>
+
+    <div class="card">
+      <h3>💬 Feedback</h3>
+      <p>Share your experience</p>
+    </div>
+  </div>
+
+  <!-- 📩 FORM -->
+  <form onsubmit="return contactForm()">
+
+    <input type="text" id="name" placeholder="Full Name"><br><br>
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <input type="tel" id="phone" placeholder="Phone Number"><br><br>
+
+    <select id="subject">
+      <option value="">Select Subject</option>
+      <option>Support</option>
+      <option>Feedback</option>
+      <option>Business</option>
+    </select><br><br>
+
+    <textarea id="message" placeholder="Your Message"></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+
+  <!-- 📍 MAP SECTION -->
+  <div class="map">
+    <iframe 
+      src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      width="300" height="200">
+    </iframe>
+  </div>
+
+  <!-- 📧 CONTACT DETAILS -->
+  <div class="details">
+    <h2>Our Details</h2>
+    <p>Email: support@example.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Address: India</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

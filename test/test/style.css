@@ -1,0 +1,72 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    background-color:brown;
+}
+
+
+.card{
+    height: 400px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(154, 57, 57, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border:20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+}
+
+#innerbox{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: blue;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.1s;
+}
+
+
+button:active{
+    transform: scale(0.95);
+}
+
+h2{
+    padding: 20 20;
+    margin-top: 30px;
+}

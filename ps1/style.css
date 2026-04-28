@@ -1,0 +1,32 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(1, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #card {
+            height: 250px;
+            width: 250px;
+            background: linear-gradient(lightblue,lightgreen);
+            border-radius: 23px;
+        }
+    
+        #card:hover {
+            background-color: black;
+        }
+    }
+
+
+
+/

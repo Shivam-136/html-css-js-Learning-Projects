@@ -1,0 +1,76 @@
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    transition:all 0.6s ease;
+    }
+
+    body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+    z-index:-1;
+    }
+
+    .container{
+    text-align:center;
+    }
+
+    h1{
+    margin-bottom:25px;
+    letter-spacing:3px;
+    }
+
+    button{
+    padding:15px 35px;
+    font-size:16px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    background:black;
+    color:white;
+    box-shadow:0 0 20px cyan;
+    transition:0.3s;
+    }
+
+    button:hover{
+    transform:scale(1.1);
+    }
+
+    body.cyberpunk{
+    background-image:url("https://images.unsplash.com/photo-1516117172878-fd2c41f4a759");
+    }
+
+    body.cyberpunk h1{
+    color:#2be824;
+    text-shadow:0 0 20px #2be824;;
+    }
+    body.space{
+    background-image:url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa");
+    }
+    body.space h1{
+    color:#00eaff;
+    text-shadow:0 0 20px #00eaff;
+    }
+    body.retro{
+    background-image:url("https://images.unsplash.com/photo-1511512578047-dfb367046420");
+    }
+    body.retro h1{
+    color:#bc2710;
+    text-shadow:0 0 20px #bc2710;;
+    }
+
+    button:active{
+        scale: 0.92;
+    }

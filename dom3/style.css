@@ -1,0 +1,43 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    text-align: center;
+
+}
+
+#playground{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius:10px;
+}
+
+button:active{
+    transform: scale(0.95);
+}

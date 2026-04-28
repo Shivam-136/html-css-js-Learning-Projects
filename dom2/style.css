@@ -1,0 +1,46 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(108, 98, 98);
+}
+
+h4{
+    font-size: 200px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(50, 50, 50);
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+}
+
+button:active{
+    transform: scale(0.95);
+}

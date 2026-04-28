@@ -1,0 +1,112 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+main{
+    text-align:center ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+#card{
+    height: 500px;
+    width: 400px;
+    background-color:white;
+    color:black;
+    margin: 50px 60px;
+    border-radius: 30px;
+    border: none;
+    overflow: hidden;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin:auto;
+}
+#top{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+#mid{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight:500px;
+    gap: 10px;
+    
+}
+    #mid h4{
+    border-radius: 18px;
+    border: 1.5px solid #1c859a;
+    padding: 4px 10px;
+
+    }
+h2{
+    padding: 10px 20px;}
+h3{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+p{
+    padding: 20px 20px;
+    font-size: 20px;
+}
+button{
+    height: 100%;
+    width:100%;
+    padding: 30px 20px;
+    font-size: 20px;
+    cursor:pointer; 
+    border: none;
+    background-color: white;
+}
+button:hover{
+    background-color: rgb(4, 23, 78);
+    color: white;
+}
+h1 button{
+    border-radius: 18px;
+    border: none;
+    padding: 4px 10px;
+    background-color:rgb(27, 173, 64);
+    color: white;
+}
+
+    #full-preview{
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0,0,0,0.7);    
+        z-index: 9999;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 200ms ease, visibility 200ms ease;
+    }
+
+    #full-preview.open{
+        visibility: visible;
+        opacity: 1;
+    }

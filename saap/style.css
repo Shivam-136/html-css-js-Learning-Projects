@@ -1,0 +1,15 @@
+    body {
+    cursor: none;
+    height: 100vh;
+
+    background:linear-gradient( to right bottom ,blue,red,rgb(109, 109, 97),black);
+    }
+
+    .snake-part {
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    }

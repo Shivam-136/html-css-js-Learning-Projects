@@ -1,0 +1,153 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-style: italic;
+    background-color: black;
+}
+
+#box{
+    text-align: center;
+    background-color: rgb(3, 3, 83);
+    color: white;
+    padding: 30px;
+}
+#box1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 50px;
+    margin: 30px 70px;
+    border-radius: 10px;
+}
+#box2{
+    text-align: center;
+    background-color: rgb(207, 197, 189);
+    padding: 30px 30px;
+    margin: 30px 70px;
+    border-radius: 10px;
+}
+#abc{
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+}
+#xyz{
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+}
+#box3{
+    text-align: center;
+    background-color: rgb(214, 229, 184);
+    padding: 30px 30px;
+    margin: 30px 70px;
+    border-radius: 10px;
+    
+    
+}
+#A{
+    
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#B {
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#C {
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#D {
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#box4 {
+    background-color: rgba(91, 106, 169, 0.767);
+    text-align: center;
+    padding: 30px 30px;
+    margin: 30px 70px;
+    border-radius: 10px;
+}
+#E{
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#F {
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#G {
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#box5 {
+    background-color: rgba(164, 159, 159, 0.767);
+    text-align: center;
+    padding: 30px 30px;
+    margin: 30px 70px;
+    border-radius: 10px;
+}
+#H{
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#I{
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#J{
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#K {
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+#L {
+
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}

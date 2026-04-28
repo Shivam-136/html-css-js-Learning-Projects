@@ -1,0 +1,61 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+}
+
+.card{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(100, 98, 98);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(26, 2, 115);
+
+}
+
+h1{
+    height:50%;
+    width:50%;
+    background-color: lightblue;
+    border-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1768980916747-fd6dc938f8e0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMjd8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(163, 13, 8);
+    color: white;
+    border: 2px solid rgb(7, 7, 7);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+
+
+

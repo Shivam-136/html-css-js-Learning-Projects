@@ -1,0 +1,52 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 10%;
+    width: 40%;
+    margin: auto;
+    border-radius: 23px;
+    padding: 23px;
+    backdrop-filter: blur(23px);
+    box-shadow: 0 0 23px rgba(0,0,0,0.1);
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(23, 1, 1);
+}
+a div {
+    transition: all ease 0.5s;
+}
+
+.navlink{
+    display:flex;
+    gap: 1rem;
+    font-size: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#bottom{
+    color: red;
+}
+
+a:hover{
+    #top{
+        transform: translateY(-100px); 
+    }
+    #bottom{
+        transform: translateY(-100px); 
+    }   
+}
+
