@@ -1,4 +1,4 @@
-    /* *{
+    *{
         margin:0%;
         padding:0%;
         box-sizing: border-box;
@@ -15,7 +15,7 @@
         color: white;
         justify-content: center;
         position: fixed;
-
+        
         
     }
     h1{
@@ -35,4 +35,4 @@
         to{
         transform: translate(-100%);
         }
-    } */
+    }
