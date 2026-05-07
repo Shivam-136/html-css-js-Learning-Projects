@@ -127,7 +127,7 @@ body{
             #rightbox {
                     height: 200px;
                     width: 450px;
-                    background-color: #c91313;
+                    background-color:red;
                     position: absolute;
                     left: 400px;
                     top: 90px;
