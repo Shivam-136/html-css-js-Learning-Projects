@@ -28,11 +28,9 @@ a {
     text-decoration: none;
     color: rgb(23, 1, 1);
 }
-
 a div {
     transition: all ease 0.5s;
 }
-
 .navlink {
     display: flex;
     gap: 1rem;
@@ -84,7 +82,6 @@ body{
     font-size: 2rem;
     position:absolute;
     left: 10%;
-    
     background-size: cover;
 }
 #page1 #leftbox2{
@@ -98,12 +95,8 @@ body{
     font-size: 2rem;
     position:absolute;
     right: 25%;
-    
     background-size: cover;
-
 }
-
-
 #page1 {
     background-color: black;
     top: 0;
@@ -131,9 +124,6 @@ body{
     
             }
         }
-
-
-
             #rightbox {
                     height: 200px;
                     width: 450px;
@@ -144,11 +134,8 @@ body{
                     border-radius: 20px;
                     background-image: url(https://i.pinimg.com/1200x/bd/df/36/bddf36f66cddbc00ff431d6678dc78be.jpg);
                     background-size: cover;
-                    border: solid 1.5px white;
-                    
+                    border: solid 1.5px white;  
                 }
-
-
 #page3 {
     background:transparent;
     top: 25%;
