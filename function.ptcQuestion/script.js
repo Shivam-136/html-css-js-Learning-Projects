@@ -482,9 +482,6 @@ console.log(middle(1,2,3))
 // - **Input:** `countVowels("hello")`
 // - **Output:** `2`
 
-function Vowels(string){
-   return 
-}   
 
 // ## 45. Repeat String N Times
 // - **Input:** `repeat("ha", 3)`
