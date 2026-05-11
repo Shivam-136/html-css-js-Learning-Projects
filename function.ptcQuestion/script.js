@@ -213,9 +213,9 @@ function  average(a,b,c){
 }
 console.log(average(10,20,30))
 
-// ## 21. Check If Number Is Divisible by 5
-// - **Input:** `isDivisibleBy5(25)`
-// - **Output:** `true`
+// ## 21. Check If Number Is DiveBy5(25)`
+// - **Output:** `truisible by 5
+// - **Input:** `isDivisible`
 
 function isDivisibleBy5(a){
     if(a % 5 === 0){
@@ -458,13 +458,33 @@ function middle(a,b,c){
 }
 console.log(middle(1,2,3))
 
-// ## 43. Check If Number Is Prime
-// - **Input:** `isPrime(7)`
-// - **Output:** `true`
+        // ## 43. Check If Number Is Prime
+        // - **Input:** `isPrime(7)`
+        // - **Output:** `true`
+
+    function isprime(num){
+        if(num <=1){
+            return false
+        }
+
+        for(let i=2; i<num; i++){
+            if(num % i === 0){
+                return false;
+            }
+        }
+
+        return true
+    }
+    console.log(isprime(7))
+    console.log(isprime(10))
 
 // ## 44. Count Vowels in String
 // - **Input:** `countVowels("hello")`
 // - **Output:** `2`
+
+function Vowels(string){
+   return 
+}   
 
 // ## 45. Repeat String N Times
 // - **Input:** `repeat("ha", 3)`
