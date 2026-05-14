@@ -59,24 +59,25 @@ console.log(change)
 // // 8. Create an array of your favorite 3 movies.
 // //    Print the movie at ** index 1 **.
 
-// let movies = ["Inception", "Interstellar", "Avengers"]
-// console.log(movies[1]);
+ let movies = ["Inception", "Interstellar", "Avengers"]
+ console.log(movies[1])
+
 
 // // 9. Given an array`["a", "b", "c", "d"]`,
 // //     remove the last element, then add `"z"` at the end.
 
-// var arr = ["a", "b", "c", "d"]
-// arr.pop();
-// arr.push("z");
-// console.log(arr);
+let alpha = ['a','b','c','d']
+alpha.pop()
+alpha.push('z')
+console.log(alpha)
 
 // // 10. Create an array`[5, 10, 15]`.
 // //     Add `20` at the end and `1` at the start.
 // //     Print the final array.
 
-// var arr = [5, 10, 15];
-// arr.push(20);
-// arr.unshift(1);
-// console.log(arr);
+let elem = [5, 10, 15]
+elem.unshift(1)
+elem.push(20)
+console.log(elem)
 
 /////////////////////////
