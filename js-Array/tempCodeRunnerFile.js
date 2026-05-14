@@ -1,3 +1,4 @@
-var cities = ["Bhopal", "Mumbai", "pune", "indore"]
-cities.shift();
-console.log(cities);
+
+// let color = ['red','green','blue']
+// color[1]='yello'
+// console.log(color)
