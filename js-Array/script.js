@@ -80,3 +80,4 @@ elem.unshift(1)
 elem.push(20)
 console.log(elem)
 
+
