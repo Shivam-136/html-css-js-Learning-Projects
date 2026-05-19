@@ -36,18 +36,12 @@ h1{
 
 .snake{
     position:fixed;
-
     width:20px;
     height:20px;
-
     border-radius:50%;
-
     pointer-events:none;
-
     transform:translate(-50%, -50%);
-
     background:cyan;
-
     box-shadow:
     0 0 10px cyan,
     0 0 20px cyan,
