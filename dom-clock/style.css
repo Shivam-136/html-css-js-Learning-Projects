@@ -68,19 +68,13 @@ h1 {
 
 .center {
     position: absolute;
-
     width: 18px;
     height: 18px;
-
     background: white;
-
     border-radius: 50%;
-
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
-
     z-index: 10;
 }
 
@@ -88,39 +82,30 @@ h1 {
 
 .hand {
     position: absolute;
-
     bottom: 50%;
     left: 50%;
-
     transform-origin: bottom;
-
     transform: translateX(-50%) rotate(0deg);
-
     border-radius: 20px;
 }
 
 .hour {
     width: 8px;
     height: 90px;
-
     background: white;
 }
 
 .minute {
     width: 5px;
     height: 120px;
-
     background: lightgray;
 }
 
 .second {
     width: 3px;
     height: 140px;
-
     background: red;
-
     box-shadow: 0 0 10px red;
-
     transition: transform 0.1s linear;
 }
 
@@ -128,16 +113,13 @@ h1 {
 
 .number {
     position: absolute;
-
     font-size: 2rem;
     font-weight: bold;
-
     color: white;
-
     text-shadow:
-        0 0 10px red;
+    0 0 10px red;
 }
-
+ 
 .n12 {
     top: 15px;
     left: 50%;
