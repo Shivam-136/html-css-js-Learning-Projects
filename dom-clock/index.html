@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOOM CLOCK</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>DOOM CLOCK</h1>
+
+        <div class="clock">
+
+            <!-- CENTER -->
+            <div class="center"></div>
+
+            <!-- HANDS -->
+            <div class="hand hour" id="hour-hand"></div>
+            <div class="hand minute" id="minute-hand"></div>
+            <div class="hand second" id="second-hand"></div>
+
+            <!-- NUMBERS -->
+            <span class="number n12">12</span>
+            <span class="number n3">3</span>
+            <span class="number n6">6</span>
+            <span class="number n9">9</span>
+
+        </div>
+
+        <!-- DIGITAL CLOCK -->
+        <div class="digital">
+
+            <span id="hour">00</span> :
+            <span id="min">00</span> :
+            <span id="sec">00</span>
+            <span id="ampm">AM</span>
+
+        </div>
+
+        <p>THIS CLOCK WILL RUN TILL THE END OF TIME</p>
+
+    </main>
+
+    <!-- AUDIO -->
+    <audio id="tick-sound" src="clock titik.mp3"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
