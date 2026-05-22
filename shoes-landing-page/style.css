@@ -1,383 +1,383 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial,sans-serif;
+        }
 
-body{
-background:
-linear-gradient(
-180deg,
-#050505,
-#111
-);
+        body{
+        background:
+        linear-gradient(
+        180deg,
+        #050505,
+        #111
+        );
 
-color:white;
-}
+        color:white;
+        }
 
 
 
-/* NAVBAR */
+        /* NAVBAR */
 
-#nav1{
+        #nav1{
 
-position:fixed;
+        position:fixed;
 
-top:0;
+        top:0;
 
-left:0;
+        left:0;
 
-width:100%;
+        width:100%;
 
-height:90px;
+        height:90px;
 
-display:flex;
+        display:flex;
 
-justify-content:space-between;
+        justify-content:space-between;
 
-align-items:center;
+        align-items:center;
 
-padding:0 70px;
+        padding:0 70px;
 
-background:rgba(12,12,12,.85);
+        background:rgba(12,12,12,.85);
 
-backdrop-filter:blur(20px);
+        backdrop-filter:blur(20px);
 
-border-bottom:1px solid rgba(255,255,255,.08);
+        border-bottom:1px solid rgba(255,255,255,.08);
 
-z-index:999;
+        z-index:999;
 
-}
+        }
 
-#webname h2{
+        #webname h2{
 
-color:orangered;
+        color:orangered;
 
-font-size:40px;
+        font-size:40px;
 
-letter-spacing:2px;
+        letter-spacing:2px;
 
-cursor:pointer;
+        cursor:pointer;
 
-}
+        }
 
 
-#nav2{
+        #nav2{
 
-display:flex;
+        display:flex;
 
-gap:55px;
+        gap:55px;
 
-}
+        }
 
-#nav2 div{
+        #nav2 div{
 
-cursor:pointer;
+        cursor:pointer;
 
-position:relative;
+        position:relative;
 
-transition:.4s;
+        transition:.4s;
 
-}
+        }
 
-#nav2 div::after{
+        #nav2 div::after{
 
-content:"";
+        content:"";
 
-position:absolute;
+        position:absolute;
 
-left:0;
+        left:0;
 
-bottom:-10px;
+        bottom:-10px;
 
-height:2px;
+        height:2px;
 
-width:0;
+        width:0;
 
-background:orangered;
+        background:orangered;
 
-transition:.4s;
+        transition:.4s;
 
-}
+        }
 
-#nav2 div:hover{
+        #nav2 div:hover{
 
-color:orangered;
+        color:orangered;
 
-}
+        }
 
-#nav2 div:hover::after{
+        #nav2 div:hover::after{
 
-width:100%;
+        width:100%;
 
-}
+        }
 
 
 
-/* HERO */
+        /* HERO */
 
-#nav3{
+        #nav3{
 
-height:100vh;
+        height:100vh;
 
-display:flex;
+        display:flex;
 
-flex-direction:column;
+        flex-direction:column;
 
-justify-content:center;
+        justify-content:center;
 
-align-items:center;
+        align-items:center;
 
-text-align:center;
+        text-align:center;
 
-background:
+        background:
 
-linear-gradient(
-rgba(0,0,0,.6),
-rgba(0,0,0,.85)
-),
+        linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.85)
+        ),
 
-url("https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=1600&q=80");
+        url("https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=1600&q=80");
 
-background-position:center;
+        background-position:center;
 
-background-size:cover;
+        background-size:cover;
 
-background-repeat:no-repeat;
+        background-repeat:no-repeat;
 
-}
+        }
 
 
-#nav3 h1{
+        #nav3 h1{
 
-font-size:90px;
+        font-size:90px;
 
-text-shadow:0 0 30px rgba(255,90,0,.6);
+        text-shadow:0 0 30px rgba(255,90,0,.6);
 
-}
+        }
 
 
-#nav3 h4{
+        #nav3 h4{
 
-margin-top:20px;
+        margin-top:20px;
 
-font-size:28px;
+        font-size:28px;
 
-color:orangered;
+        color:orangered;
 
-}
+        }
 
 
 
-/* PRODUCTS */
+        /* PRODUCTS */
 
-#nav4{
+        #nav4{
 
-padding:90px;
+        padding:90px;
 
-display:grid;
+        display:grid;
 
-grid-template-columns:
+        grid-template-columns:
 
-repeat(auto-fit,minmax(300px,1fr));
+        repeat(auto-fit,minmax(300px,1fr));
 
-gap:35px;
+        gap:35px;
 
-}
+        }
 
 
-#box1,
-#box2,
-#box3,
-#box4,
-#box5,
-#box6,
-#box7,
-#box8{
+        #box1,
+        #box2,
+        #box3,
+        #box4,
+        #box5,
+        #box6,
+        #box7,
+        #box8{
 
-height:360px;
+        height:360px;
 
-border-radius:25px;
+        border-radius:25px;
 
-display:flex;
+        display:flex;
 
-align-items:end;
+        align-items:end;
 
-padding:20px;
+        padding:20px;
 
-background-size:contain;
+        background-size:contain;
 
-background-repeat:no-repeat;
+        background-repeat:no-repeat;
 
-background-position:center;
+        background-position:center;
 
-transition:.5s;
+        transition:.5s;
 
-background-color:#121212;
+        background-color:#121212;
 
-overflow:hidden;
+        overflow:hidden;
 
-}
+        }
 
 
-#box1:hover,
-#box2:hover,
-#box3:hover,
-#box4:hover,
-#box5:hover,
-#box6:hover,
-#box7:hover,
-#box8:hover{
+        #box1:hover,
+        #box2:hover,
+        #box3:hover,
+        #box4:hover,
+        #box5:hover,
+        #box6:hover,
+        #box7:hover,
+        #box8:hover{
 
-transform:
-translateY(-10px);
+        transform:
+        translateY(-10px);
 
-box-shadow:
-0 0 40px blue;
+        box-shadow:
+        0 0 40px blue;
 
-}
+        }
 
 
 
-#nav4 p{
+        #nav4 p{
 
-background:
+        background:
 
-rgba(0,0,0,.5);
+        rgba(0,0,0,.5);
 
-padding:12px;
+        padding:12px;
 
-border-radius:10px;
+        border-radius:10px;
 
-}
+        }
 
 
 
-/* IMAGES */
+        /* IMAGES */
 
-#box1{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/067/229/284/small_2x/pair-of-stylish-white-sneakers-with-minimalist-design-featuring-clean-lines-and-classic-lace-up-style-perfect-for-casual-wear-png.png");
-}
+        #box1{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/067/229/284/small_2x/pair-of-stylish-white-sneakers-with-minimalist-design-featuring-clean-lines-and-classic-lace-up-style-perfect-for-casual-wear-png.png");
+        }
 
-#box2{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/047/241/340/small_2x/running-sneaker-isolated-on-transparent-background-free-png.png");
-}
+        #box2{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/047/241/340/small_2x/running-sneaker-isolated-on-transparent-background-free-png.png");
+        }
 
-#box3{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/046/407/710/small_2x/unique-and-aesthetically-colorful-details-of-the-upper-mesh-yellow-premium-running-sports-shoes-sneakers-isolated-on-a-transparent-background-free-png.png");
-}
+        #box3{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/046/407/710/small_2x/unique-and-aesthetically-colorful-details-of-the-upper-mesh-yellow-premium-running-sports-shoes-sneakers-isolated-on-a-transparent-background-free-png.png");
+        }
 
-#box4{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/048/896/979/small_2x/blue-converse-sneakers-free-png.png");
-}
+        #box4{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/048/896/979/small_2x/blue-converse-sneakers-free-png.png");
+        }
 
-#box5{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/057/348/801/small_2x/black-running-shoe-with-orange-shoelaces-isolated-on-transparent-background-png.png");
-}
+        #box5{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/057/348/801/small_2x/black-running-shoe-with-orange-shoelaces-isolated-on-transparent-background-png.png");
+        }
 
-#box6{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/066/763/611/small_2x/render-black-sneakers-sports-shoes-with-transparent-background-png.png");
-}
+        #box6{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/066/763/611/small_2x/render-black-sneakers-sports-shoes-with-transparent-background-png.png");
+        }
 
-#box7{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/074/822/245/small_2x/stylish-orange-and-white-sports-sneakers-for-comfort-and-performance-png.png");
-}
+        #box7{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/074/822/245/small_2x/stylish-orange-and-white-sports-sneakers-for-comfort-and-performance-png.png");
+        }
 
-#box8{
-background-image:url("https://static.vecteezy.com/system/resources/thumbnails/050/246/374/small_2x/converse-sneaker-isolated-on-transparent-background-free-png.png");
-}
+        #box8{
+        background-image:url("https://static.vecteezy.com/system/resources/thumbnails/050/246/374/small_2x/converse-sneaker-isolated-on-transparent-background-free-png.png");
+        }
 
 
 
-/* FOOTER */
+        /* FOOTER */
 
-#nav5{
+        #nav5{
 
-padding:80px;
+        padding:80px;
 
-background:#090909;
+        background:#090909;
 
-}
+        }
 
-#info{
+        #info{
 
-display:flex;
+        display:flex;
 
-justify-content:space-around;
+        justify-content:space-around;
 
-color:orangered;
+        color:orangered;
 
-font-size:34px;
+        font-size:34px;
 
-}
+        }
 
-#txt{
+        #txt{
 
-margin-top:30px;
+        margin-top:30px;
 
-text-align:center;
+        text-align:center;
 
-}
+        }
 
-#category{
+        #category{
 
-display:flex;
+        display:flex;
 
-justify-content:space-around;
+        justify-content:space-around;
 
-margin-top:40px;
+        margin-top:40px;
 
-}
+        }
 
-#con{
+        #con{
 
-display:flex;
+        display:flex;
 
-justify-content:center;
+        justify-content:center;
 
-gap:40px;
+        gap:40px;
 
-margin-top:50px;
+        margin-top:50px;
 
-}
+        }
 
-#con div:hover{
+        #con div:hover{
 
-color:orangered;
+        color:orangered;
 
-}
+        }
 
 
 
-/* MOBILE */
+        /* MOBILE */
 
-@media(max-width:768px){
+        @media(max-width:768px){
 
-#nav1{
+        #nav1{
 
-padding:0 20px;
+        padding:0 20px;
 
-}
+        }
 
-#nav2{
+        #nav2{
 
-gap:20px;
+        gap:20px;
 
-font-size:14px;
+        font-size:14px;
 
-}
+        }
 
-#nav3 h1{
+        #nav3 h1{
 
-font-size:48px;
+        font-size:48px;
 
-}
+        }
 
-#nav4{
+        #nav4{
 
-padding:30px;
+        padding:30px;
 
-}
+        }
 
-}
+        }
