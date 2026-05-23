@@ -1,79 +1,80 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-html,body{
-height:100%;
-width:100%;
-display:flex;
-justify-content:center;
-align-items:center;
-background:#111;
-}
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #111;
+    }
 
-#card{
-width:500px;
-height:220px;
+    #card {
+        width: 500px;
+        height: 220px;
 
-background:#afabab;
+        background: #afabab;
 
-border-radius:15px;
+        border-radius: 15px;
 
-padding:20px;
+        padding: 20px;
 
-display:flex;
+        display: flex;
 
-flex-direction:column;
+        flex-direction: column;
 
-justify-content:center;
+        justify-content: center;
 
-gap:30px;
-}
+        gap: 30px;
+    }
 
-#progress{
-height:20px;
+    #progress {
+        height: 20px;
 
-width:100%;
+        width: 100%;
 
-background:#ddd;
+        background: #ddd;
 
-border-radius:20px;
+        border-radius: 20px;
 
-overflow:hidden;
-}
+        overflow: hidden;
+    }
 
-#growth{
-height:100%;
+    #growth {
+        height: 100%;
 
-width:0%;
+        width: 0%;
 
-background:limegreen;
+        background: limegreen;
 
-border-radius:20px;
+        border-radius: 20px;
 
-transition:0.1s;
-}
+        transition: 0.1s;
+    }
 
-.controls{
-display:flex;
+    .controls {
+        display: flex;
 
-justify-content:space-between;
+        justify-content: space-between;
 
-align-items:center;
-}
+        align-items: center;
+    }
 
-button{
-padding:10px 20px;
+    button {
+        padding: 10px 20px;
 
-border:none;
+        border: none;
 
-cursor:pointer;
+        cursor: pointer;
 
-background:black;
+        background: black;
 
-color:white;
+        color: white;
 
-border-radius:5px;
-}
+        border-radius: 5px;
+    }
