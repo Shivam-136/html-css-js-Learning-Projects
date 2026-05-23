@@ -2,26 +2,26 @@ let btn = document.querySelector("#download");
 let growth = document.querySelector("#growth");
 let percent = document.querySelector("#percent");
 
-btn.addEventListener("click", function(){
+btn.addEventListener("click", function () {
 
-let count = 0;
+    let count = 0;
 
-let interval = setInterval(function(){
+    let interval = setInterval(function () {
 
-count++;
+        count++;
 
-growth.style.width = count + "%";
+        growth.style.width = count + "%";
 
-percent.innerHTML = count + "%";
+        percent.innerHTML = count + "%";
 
-if(count === 100){
+        if (count === 100) {
 
-clearInterval(interval);
+            clearInterval(interval);
 
-btn.innerHTML = "Completed";
+            btn.innerHTML = "Completed";
 
-}
+        }
 
-},50);
+    }, 50);
 
 });
