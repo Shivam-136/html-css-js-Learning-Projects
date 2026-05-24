@@ -1,0 +1,131 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+
+    body {
+        height: 100vh;
+
+        background:
+            radial-gradient(circle,
+                #141e30,
+                #090909);
+
+        overflow: hidden;
+
+        text-align: center;
+    }
+
+    h1 {
+        margin: 20px;
+        color: white;
+
+        text-shadow:
+            0 0 20px cyan;
+    }
+
+    button {
+
+        padding: 15px 40px;
+
+        border: none;
+
+        font-size: 22px;
+
+        font-weight: bold;
+
+        cursor: pointer;
+
+        border-radius: 50px;
+
+        color: white;
+
+        background:
+            linear-gradient(90deg,
+                #ff0000,
+                #7928ca,
+                #2afadf);
+
+        transition: .4s;
+    }
+
+    button:hover {
+
+        transform:
+            scale(1.1);
+
+        box-shadow:
+            0 0 50px #00f7ff;
+
+    }
+
+    #playground {
+
+        height: 80vh;
+
+        width: 90%;
+
+        margin: auto;
+
+        margin-top: 20px;
+
+        border-radius: 25px;
+
+        position: relative;
+
+        overflow: hidden;
+
+        background:
+            rgba(255, 255, 255, .03);
+
+        backdrop-filter:
+            blur(20px);
+
+    }
+
+    .ball {
+
+        position: absolute;
+
+        border-radius: 50%;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        font-size: 40px;
+
+        color: white;
+
+        animation:
+            explode 3s linear forwards;
+
+    }
+
+    @keyframes explode {
+
+        0% {
+            transform:
+                translate(-50%, -50%) scale(0) rotate(0deg);
+
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 1;
+        }
+
+        100% {
+
+            transform:
+                translate(-50%, -300px) scale(2) rotate(720deg);
+
+            opacity: 0;
+
+        }
+
+    }
