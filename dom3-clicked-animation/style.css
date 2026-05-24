@@ -44,6 +44,7 @@
 
         background:
             linear-gradient(90deg,
+
                 #ff0000,
                 #7928ca,
                 #2afadf);
@@ -102,6 +103,7 @@
         color: white;
 
         animation:
+        
             explode 3s linear forwards;
 
     }
