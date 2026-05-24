@@ -21,7 +21,8 @@ btn.addEventListener("click", () => {
 
             create();
 
-        }, i * 100);
+        }, 
+        i * 100);
 
     }
 
