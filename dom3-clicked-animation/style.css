@@ -52,10 +52,10 @@
         transition: .4s;
     }
 
-    button:hover {
+    button:active {
 
         transform:
-            scale(1.1);
+            scale(0.95      );
 
         box-shadow:
             0 0 50px #00f7ff;
