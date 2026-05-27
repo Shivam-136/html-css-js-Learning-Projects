@@ -1,0 +1,374 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background:
+                linear-gradient(180deg,
+                    #050505,
+                    #111);
+
+            color: white;
+        }
+
+
+
+        /* NAVBAR */
+
+        #nav1 {
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 90px;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 0 70px;
+
+            background: rgba(12, 12, 12, .85);
+
+            backdrop-filter: blur(20px);
+
+            border-bottom: 1px solid rgba(255, 255, 255, .08);
+
+            z-index: 999;
+
+        }
+
+        #webname h2 {
+
+            color: orangered;
+
+            font-size: 40px;
+
+            letter-spacing: 2px;
+
+            cursor: pointer;
+
+        }
+
+
+        #nav2 {
+
+            display: flex;
+
+            gap: 55px;
+
+        }
+
+        #nav2 div {
+
+            cursor: pointer;
+
+            position: relative;
+
+            transition: .4s;
+
+        }
+
+        #nav2 div::after {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+
+            bottom: -10px;
+
+            height: 2px;
+
+            width: 0;
+
+            background: orangered;
+
+            transition: .4s;
+
+        }
+
+        #nav2 div:hover {
+
+            color: orangered;
+
+        }
+
+        #nav2 div:hover::after {
+
+            width: 100%;
+
+        }
+
+
+
+        /* HERO */
+
+        #nav3 {
+
+            height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            text-align: center;
+
+            background:
+
+                linear-gradient(rgba(0, 0, 0, .6),
+                    rgba(0, 0, 0, .85)),
+
+                url("https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=1600&q=80");
+
+            background-position: center;
+
+            background-size: cover;
+
+            background-repeat: no-repeat;
+
+        }
+
+
+        #nav3 h1 {
+
+            font-size: 90px;
+
+            text-shadow: 0 0 30px rgba(255, 90, 0, .6);
+
+        }
+
+
+        #nav3 h4 {
+
+            margin-top: 20px;
+
+            font-size: 28px;
+
+            color: orangered;
+
+        }
+
+
+
+        /* PRODUCTS */
+
+        #nav4 {
+
+            padding: 90px;
+
+            display: grid;
+
+            grid-template-columns:
+
+                repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 35px;
+
+        }
+
+
+        #box1,
+        #box2,
+        #box3,
+        #box4,
+        #box5,
+        #box6,
+        #box7,
+        #box8 {
+
+            height: 360px;
+
+            border-radius: 25px;
+
+            display: flex;
+
+            align-items: end;
+
+            padding: 20px;
+
+            background-size: contain;
+
+            background-repeat: no-repeat;
+
+            background-position: center;
+
+            transition: .5s;
+
+            background-color: #121212;
+
+            overflow: hidden;
+
+        }
+
+
+        #box1:hover,
+        #box2:hover,
+        #box3:hover,
+        #box4:hover,
+        #box5:hover,
+        #box6:hover,
+        #box7:hover,
+        #box8:hover {
+
+            transform:
+                translateY(-10px);
+
+            box-shadow:
+                0 0 40px blue;
+
+        }
+
+
+
+        #nav4 p {
+
+            background:
+
+                rgba(0, 0, 0, .5);
+
+            padding: 12px;
+
+            border-radius: 10px;
+
+        }
+
+
+
+        /* IMAGES */
+
+        #box1 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/067/229/284/small_2x/pair-of-stylish-white-sneakers-with-minimalist-design-featuring-clean-lines-and-classic-lace-up-style-perfect-for-casual-wear-png.png");
+        }
+
+        #box2 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/047/241/340/small_2x/running-sneaker-isolated-on-transparent-background-free-png.png");
+        }
+
+        #box3 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/046/407/710/small_2x/unique-and-aesthetically-colorful-details-of-the-upper-mesh-yellow-premium-running-sports-shoes-sneakers-isolated-on-a-transparent-background-free-png.png");
+        }
+
+        #box4 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/048/896/979/small_2x/blue-converse-sneakers-free-png.png");
+        }
+
+        #box5 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/057/348/801/small_2x/black-running-shoe-with-orange-shoelaces-isolated-on-transparent-background-png.png");
+        }
+
+        #box6 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/066/763/611/small_2x/render-black-sneakers-sports-shoes-with-transparent-background-png.png");
+        }
+
+        #box7 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/074/822/245/small_2x/stylish-orange-and-white-sports-sneakers-for-comfort-and-performance-png.png");
+        }
+
+        #box8 {
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/050/246/374/small_2x/converse-sneaker-isolated-on-transparent-background-free-png.png");
+        }
+
+
+
+        /* FOOTER */
+
+        #nav5 {
+
+            padding: 80px;
+
+            background: #090909;
+
+        }
+
+        #info {
+
+            display: flex;
+
+            justify-content: space-around;
+
+            color: orangered;
+
+            font-size: 34px;
+
+        }
+
+        #txt {
+
+            margin-top: 30px;
+
+            text-align: center;
+
+        }
+
+        #category {
+
+            display: flex;
+
+            justify-content: space-around;
+
+            margin-top: 40px;
+
+        }
+
+        #con {
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 40px;
+
+            margin-top: 50px;
+
+        }
+
+        #con div:hover {
+
+            color: orangered;
+
+        }
+
+
+
+        /* MOBILE */
+
+        @media(max-width:768px) {
+
+            #nav1 {
+
+                padding: 0 20px;
+
+            }
+
+            #nav2 {
+
+                gap: 20px;
+
+                font-size: 14px;
+            }
+            
+            #nav3 h1 {
+                font-size: 48px;
+            }
+
+            #nav4 {
+
+                padding: 30px;
+            }
+        }
