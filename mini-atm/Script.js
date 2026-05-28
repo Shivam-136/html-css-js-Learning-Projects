@@ -31,9 +31,6 @@ do {
 
 } while (banking)
 
-
-
-
 function Withdraw() {
     let ammount = Number(prompt("Enter Ammount to withdraw :"))
     if (ammount != NaN && ammount <= balance) {
