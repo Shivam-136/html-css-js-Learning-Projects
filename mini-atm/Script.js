@@ -10,6 +10,7 @@ do {
     b) Withdraw Money
     c) Deposit Money
     d) exit`)
+    
     switch (userChoice) {
         case "a":
             alert("Your Current Balance Is: ₹" + balance)
