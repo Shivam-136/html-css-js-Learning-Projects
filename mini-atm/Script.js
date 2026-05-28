@@ -10,7 +10,7 @@ do {
     b) Withdraw Money
     c) Deposit Money
     d) exit`)
-    
+
     switch (userChoice) {
         case "a":
             alert("Your Current Balance Is: ₹" + balance)
@@ -41,8 +41,6 @@ function Withdraw() {
         alert("invalid Input.")
     }
 }
-
-
 
 function Deposit() {
     let ammount = Number(prompt("Enter Ammount to be deposit:"))
