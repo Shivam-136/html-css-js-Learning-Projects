@@ -50,11 +50,13 @@ button{
     background-color: rgb(163, 13, 8);
     color: white;
     border: 2px solid rgb(7, 7, 7);
+    border: none;
 }
 
 button:active{
     transform: scale(0.95);
 }
+
 
 
 
