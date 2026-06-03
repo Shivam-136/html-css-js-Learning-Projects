@@ -3,6 +3,7 @@ var innerbox = document.getElementById("innerbox");
 var h2 = document.querySelector("h2");
 var count = 0;
 btn.addEventListener("click", function(e){
+    
     if(e.target.tagName === "BUTTON"){
         var color = e.target.textContent;
         if(color === "Rendom"){
