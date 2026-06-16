@@ -17,9 +17,8 @@ body{
     overflow-x:hidden;
 }
 
-/* ======================
-   NAVBAR
-====================== */
+
+   /* NAVBAR */
 
 .navbar{
     position:fixed;
