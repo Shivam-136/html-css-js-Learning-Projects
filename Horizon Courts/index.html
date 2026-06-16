@@ -1,80 +1,255 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Horizon Courts</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div id="nav1">
-            <div id="id">
-                <h2>Horizon Counts</h2>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Horizon Courts</div>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#coaches">Coaches</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="btn">Book Now</button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <video autoplay muted loop>
+            <source src="5740600-uhd_4096_2160_25fps.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>Unleash Your Inner Champion</h1>
+
+            <p>
+                Join the ultimate tennis experience where passion
+                meets performance and every swing brings you closer
+                to victory.
+            </p>
+
+            <button class="hero-btn">
+                Start Your Journey
+            </button>
         </div>
-            <div id="id">
-                <button>About Us</button>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+
+        <div class="about-left">
+            <span>About Horizon</span>
+
+            <h2>
+                We Don't Just Play Tennis.
+                We Live It.
+            </h2>
+        </div>
+
+        <div class="about-right">
+            <p>
+                Since 2021, Horizon Courts has been home to players
+                of all skill levels. Our mission is to help athletes
+                unlock their full potential through expert coaching,
+                modern facilities and a passionate tennis community.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Feature Cards -->
+    <section class="cards">
+
+        <div class="card dark">
+            <h3>
+                Professional hard courts with tournament-grade
+                lighting and climate control.
+            </h3>
+        </div>
+
+        <div class="card image-card">
+            <div class="card-content">
+                Private & Group Lessons
             </div>
-            <div id="id">Services</div>
-            <div id="id">Coaches</div>
-            <div id="id">Events</div>
-            <div id="id">Contacts</div>
-            <div id="id">
-                <button>Book Now </button>
+        </div>
+
+        <div class="card dark">
+            <h1>100+</h1>
+
+            <h3>Professional Coaches</h3>
+
+            <p>
+                Certified professionals ready to improve your game.
+            </p>
+
+            <div class="tags">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Advanced</span>
             </div>
         </div>
-    <div id="nav2">
-        <video autoplay muted loop src="/5740600-uhd_4096_2160_25fps.mp4"></video>
-        <div id="text1">
-                <h1>Unleash Your Inner Champion Today All. <br>In One Plase.</h1>
-                <br>
-            <h4>Join the ultimate tennis experience -- where passion meets performince,<br>and every swing brings you closer to victory. </h4>
-            <br>
-            <button>Start your own jurney </button>
+
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+
+        <div class="stat">
+            <h2>12,000+</h2>
+            <p>Hours of Play Annually</p>
         </div>
-    </div>
-    <div id="nav3">
-        <button><h5>About Harizon</h5></button>
-        <p>At Horizon,We don't just play tennis -- We live it.Since 2021,<br>Our club has been a home for players of all levels from eager <br> beginners to seasoned pros. </p>
-    </div>
-    <div id="nav4">
-        <div id="box1">
-            <h3>Professional hard courts <br> with tournament-grade lighting & climate contron -- <br> play in perfect condition,<br> in any sesion.</h3>
+
+        <div class="stat">
+            <h2>89%</h2>
+            <p>Player Retention Rate</p>
+        </div>
+
+        <div class="stat">
+            <h2>1,200+</h2>
+            <p>Active Members</p>
+        </div>
+
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+
+        <h2>Our Services</h2>
+
+        <p>
+            Explore our coaching, training and premium
+            tennis experiences.
+        </p>
+
+        <div class="service-grid">
+
+            <div class="service-card service1">
+                <h3>Training Programs</h3>
+            </div>
+
+            <div class="service-card service2">
+                <h3>Hourly Court Rental</h3>
+            </div>
 
         </div>
-        <div id="box2">
-            <p>Private & Group Lession</p>
-        </div>
-        <div id="box3">
-            <div id="name1">
-                <h1>100+</h1>+
-                <h3>Pro Coaches</h3>
-                <p>Certified professionals ready to boost your game from first serve to tournament level.</p>
-                <br>
-            <div id="name2">
-                <h4>beginner</h4>
-                <h4>intermediare</h4>
-                <h4>Advanced</h4>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div id="nav5">
-    <div id="text2">A few more facts about us in numbers</div>
-    <h2>12 000+ <br>house of play annually</h2>
-    
-    <h3>89% <br> Player retention rate</h3>
 
-    <h4>12,00+<br>Active Members</h4>
-    </div>
-    
-    <div id="nav6">
-        <button>Services</button>
-        <p>Exploro our full range of coaching training,<br> and tennis experiences <br> From first serve to match point got the right
-            program</p>
-        <div id="box4"><h2>Training programs</h2><h3>Program designed for  all ages and abilities</h3></div>
-        <div id="box5"><h4>Hously Court Rental</h4></div>
-    </div>
-            
-        
+    </section>
+
+    <!-- Coaches -->
+    <section id="coaches" class="coaches">
+
+        <h2>Meet Our Coaches</h2>
+
+        <div class="coach-grid">
+
+            <div class="coach-card">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a">
+                <h3>Michael Carter</h3>
+                <p>Head Coach</p>
+            </div>
+
+            <div class="coach-card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e">
+                <h3>James Wilson</h3>
+                <p>Professional Trainer</p>
+            </div>
+
+            <div class="coach-card">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330">
+                <h3>Sarah Johnson</h3>
+                <p>Fitness Coach</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="events">
+
+        <h2>Upcoming Events</h2>
+
+        <div class="event-grid">
+
+            <div class="event-card">
+                <h3>Summer Tournament</h3>
+                <p>20 July 2026</p>
+            </div>
+
+            <div class="event-card">
+                <h3>Junior Championship</h3>
+                <p>15 August 2026</p>
+            </div>
+
+            <div class="event-card">
+                <h3>Club Finals</h3>
+                <p>10 September 2026</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+
+        <h2>What Members Say</h2>
+
+        <div class="testimonial-grid">
+
+            <div class="review">
+                ⭐⭐⭐⭐⭐
+                <p>
+                    Amazing facilities and fantastic coaches.
+                </p>
+            </div>
+
+            <div class="review">
+                ⭐⭐⭐⭐⭐
+                <p>
+                    Improved my game dramatically in just months.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <div class="footer-content">
+
+            <div>
+                <h2>Horizon Courts</h2>
+                <p>Your destination for world-class tennis.</p>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>+91 9876543210</p>
+                <p>info@horizoncourts.com</p>
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
-</html>                    
+</html>
+```
