@@ -2,15 +2,15 @@
 // // 1. Create an array of 5 numbers.
 // //    Print the ** first ** and ** last ** element using index.
 
-let numbers = [10,20,30,40,50]
+let numbers = [10, 20, 30, 40, 50]
 console.log(numbers[0])
 console.log(numbers[4])
-console.log(numbers[numbers.length-1])
+console.log(numbers[numbers.length - 1])
 
 // // 2. Given an array`["html", "css"]`,
 // //     add`"js"` at the ** end ** and`"git"` at the ** start **.
 
-let arr = ['html','css']
+let arr = ['html', 'css']
 arr.push('js')
 arr.unshift('git')
 console.log(arr)
@@ -26,7 +26,7 @@ console.log(cities);
 // //    Remove the ** last element ** and store it in a variable.
 // //    Print both the removed value and the array.
 
-let array = [10,20,30,40]
+let array = [10, 20, 30, 40]
 let removeValue = array.pop()
 console.log(removeValue)
 console.log(array)
@@ -34,7 +34,7 @@ console.log(array)
 // // 5. Given an array`["red", "green", "blue"]`,
 // //     change`"green"` to `"yellow"` using index.
 
-let colors = ['red','green','blue']
+let colors = ['red', 'green', 'blue']
 colors[1] = 'yello'
 console.log(colors)
 
@@ -51,7 +51,7 @@ console.log(empty)
 // // 7. Given an array`[1, 2, 3, 4]`,
 // //     remove the first element and add `100` at the beginning.
 
-let change = [1,2,3,4]
+let change = [1, 2, 3, 4]
 change.shift()
 change.unshift(100)
 console.log(change)
@@ -59,14 +59,14 @@ console.log(change)
 // // 8. Create an array of your favorite 3 movies.
 // //    Print the movie at ** index 1 **.
 
- let movies = ["Inception", "Interstellar", "Avengers"]
- console.log(movies[1])
+let movies = ["Inception", "Interstellar", "Avengers"]
+console.log(movies[1])
 
 
 // // 9. Given an array`["a", "b", "c", "d"]`,
 // //     remove the last element, then add `"z"` at the end.
 
-let alpha = ['a','b','c','d']
+let alpha = ['a', 'b', 'c', 'd']
 alpha.pop()
 alpha.push('z')
 console.log(alpha)
